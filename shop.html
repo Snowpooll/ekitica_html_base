@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>jQuery Mobile</title>
+<link rel="stylesheet"
+href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js">
+</script>
+</head>
+<body>
+<div data-role="page" data-title="jQuery Mobile">
+<div data-role="header" data-add-back-btn="thue" data-back-btn-text="戻る">
+ <h1>お店情報</h1>
+</div>
+<div role="main" class="ui-content">
+
+  <h2>ティーセット</h2>
+  <h3>午後の緩やかな時間を本とともに</h3>
+  <p>忙しい喧騒を離れ、午後はゆっくりとお茶を飲みたいときにおすすめです</p>
+  <img src="image/tee.jpg" alt="" width="300" height="300">
+
+<h3>ギャラリー</h3>
+<img src="image/food.jpg" alt="" width="300" height="300">
+
+  <h3>メニュー</h3>
+  <div data-role="collapsible">
+    <h3>私のおすすめメニュー</h3>
+    <p>イカスミパスタ</p>
+  </div>
+
+<h3>店舗情報</h3>
+  <table data-role="table" data-mode="reflow" class="ui-responsive">
+    <thead>
+      <tr>
+        <th>店名</th>
+        <th>定休日</th>
+        <th>価格</th>
+        <th>住所</th>
+        <th>電話番号</th>
+        <th>HP</th>
+        <th>アクセス</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>○○のお店</td>
+        <td>日曜日</td>
+        <td>ランチ1000円</td>
+        <td>東京都</td>
+        <td>000-000-0000</td>
+        <td>http://example.co.jp</td>
+        <td>○○駅○版口から徒歩</td>
+      </tr>
+    </tbody>
+  </table>
+<h3>周辺地図</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7481415393895!2d139.74543744402948!3d35.65857638920314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1436313888247" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+</div>
+<div data-role="footer" class="ui-bar">
+
+ <div data-role="navbar">
+        <ul>
+          <li><a href="#" data-icon="phone">電話</a></li>
+          <li><a href="#" data-icon="location">地図</a></li>
+          <li><a href="#" data-icon="edit">tweet</a></li>
+        </ul>
+      </div>
+</div>
+</div>
+</body>
+</html>

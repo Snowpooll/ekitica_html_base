@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>jQuery Mobile</title>
+<link rel="stylesheet"
+href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js">
+</script>
+</head>
+<body>
+<div data-role="page" data-title="jQuery Mobile">
+<div data-role="header" data-add-back-btn="thue" data-back-btn-text="戻る">
+ <h1>お店一覧</h1>
+</div>
+<div role="main" class="ui-content">
+
+<form action="" class="ui-filterable">
+  <input type="text" id="keywd" data-type="search" placeholder="お店の名前を入力">
+</form>
+
+  <ul data-role="listview" data-filter="true" data-input="#keywd">
+    <li class="ui-li-has-thumbnail"><a href="shop.html"><img src="image/tee.jpg"  />お茶</a></li>
+    <li class="ui-li-has-thumbnail"><a href="shop.html"><img src="image/cake.jpg"  />ケーキ</a></li>
+    <li class="ui-li-has-thumbnail"><a href="shop.html"><img src="image/food.jpg"  />和菓子</a></li>
+    <li class="ui-li-has-thumbnail"><a href="shop.html"><img src="image/cofee.jpg"  />ゼリー</a></li>
+    <li class="ui-li-has-thumbnail"><a href="shop.html"><img src="image/blead.jpg"  />アイス</a></li>
+  </ul>
+
+</div>
+<div data-role="footer">
+ フッター
+</div>
+</div>
+</body>
+</html>
